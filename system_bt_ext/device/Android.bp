@@ -2,7 +2,6 @@
 // ========================================================
 cc_library_static {
     name: "libbtdevice_ext",
-    defaults: ["fluoride_defaults"],
     local_include_dirs: [
         "include",
     ],
@@ -20,7 +19,6 @@ cc_library_static {
         "liblog",
     ],
     static_libs: [
-        "libosi",
     ],
 
 }

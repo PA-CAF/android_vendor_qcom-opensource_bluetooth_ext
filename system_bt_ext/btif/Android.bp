@@ -2,7 +2,6 @@
 // ========================================================
 cc_library_static {
     name: "libbtif_ext",
-    defaults: ["fluoride_defaults"],
     include_dirs: [
         "system/bt",
         "system/bt/btcore/include",
@@ -28,8 +27,6 @@ cc_library_static {
         "libhardware",
     ],
     static_libs: [
-        "libosi",
-        "libbt-utils",
     ],
     cflags: ["-DBUILDCFG"],
 }
